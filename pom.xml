@@ -34,7 +34,7 @@
 
 	<!-- TODO: add modules here -->
 	<modules>
-	
+	 <module>api-gateway</module>
 	</modules>
 
 </project>
