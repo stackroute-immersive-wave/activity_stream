@@ -1,0 +1,6 @@
+spring:
+  application:
+     name: movieservice
+  cloud:
+    config:
+      uri: http://localhost:8888
