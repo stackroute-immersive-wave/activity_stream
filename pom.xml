@@ -25,7 +25,6 @@
 	</properties>
 
 	<dependencies>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -33,6 +32,9 @@
 		</dependency>
 	</dependencies>
 
-
+	<!-- TODO: add modules here -->
+	<modules>
+	
+	</modules>
 
 </project>
