@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.stackroute</groupId>
+	<groupId>com.stackroute.activitystream</groupId>
 	<artifactId>activity_stream</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -15,7 +15,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.4.2.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -34,7 +34,8 @@
 
 	<!-- TODO: add modules here -->
 	<modules>
-	 <module>api-gateway</module>
+		<module>api-gateway</module>
+		<module>discovery-registry</module>
 	</modules>
 
 </project>
