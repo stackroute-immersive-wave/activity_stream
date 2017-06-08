@@ -21,5 +21,4 @@ public class ConfigurationServerApplicationTests {
 	public void contextLoads() {
 		assertFalse(this.environment.getPropertySources().contains("application"));
 	}
-	
 }
