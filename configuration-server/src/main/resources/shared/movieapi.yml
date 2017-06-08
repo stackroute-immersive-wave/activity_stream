@@ -1,8 +1,11 @@
+server:
+  port: 8081
+    
 spring:
   data:
     mongodb:
       authentication-database: admin
-      database: movieDB
+      database: moviedb
       username: superAdmin
       password: admin123
       port: 27017

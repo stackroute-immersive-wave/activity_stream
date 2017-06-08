@@ -1,12 +1,12 @@
-package com.stackroute.configurationclient.service;
+package com.stackroute.movieapp.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.stackroute.configurationclient.domain.Movie;
-import com.stackroute.configurationclient.repositories.MovieRepositories;
+import com.stackroute.movieapp.domain.Movie;
+import com.stackroute.movieapp.repositories.MovieRepositories;
 
 @Service
 public class MovieServiceImpl implements MovieService {
