@@ -1,4 +1,4 @@
-package com.stackroute.configurationclient.domain;
+package com.stackroute.movieapp.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

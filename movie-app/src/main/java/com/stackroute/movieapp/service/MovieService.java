@@ -1,8 +1,8 @@
-package com.stackroute.configurationclient.service;
+package com.stackroute.movieapp.service;
 
 import java.util.List;
 
-import com.stackroute.configurationclient.domain.Movie;
+import com.stackroute.movieapp.domain.Movie;
 
 public interface MovieService {
 	

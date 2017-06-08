@@ -1,4 +1,4 @@
-package com.stackroute.configurationclient.controllers;
+package com.stackroute.movieapp.controllers;
 
 import java.util.HashMap;
 import java.util.List;
@@ -16,13 +16,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.stackroute.configurationclient.domain.Movie;
-import com.stackroute.configurationclient.service.MovieService;
+import com.stackroute.movieapp.domain.Movie;
+import com.stackroute.movieapp.service.MovieService;
 
 @RefreshScope
 @RestController
 @CrossOrigin
-@RequestMapping("/v1/api/movie/client")
+@RequestMapping("/v1/api/movie/")
 public class MovieRestController {
 	
 	private MovieService movieService;
